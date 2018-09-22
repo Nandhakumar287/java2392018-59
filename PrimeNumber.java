@@ -1,6 +1,6 @@
 import java.io.*;
 import java.util.*;
-  public class Prime{    
+  public class PrimeNumber{    
   public static void main(String args[]){    
   int i,m=0,flag=0;      
   int n=3;
@@ -15,7 +15,9 @@ import java.util.*;
      break;      
     }      
    }      
-   if(flag==0)  { System.out.println(n+" YES"); }  
+   if(flag==0)
+   { 
+     System.out.println(n+" YES"); }  
   }//end of else  
 }    
 }
